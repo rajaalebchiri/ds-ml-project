@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+"""OOP Project
+
+library management system
+"""
+
 
 class Library:
     def __init__(self, bookList, name):
@@ -37,12 +42,14 @@ class Library:
 
 
 if __name__ == "__main__":
-    BenLibrary = Library(["Python", "Java", "Data Science",
-                         "Web Scraping", "Data Mining"], "Ben")
+    BenLibrary = Library(
+        ["Python", "Java", "Data Science", "Web Scraping", "Data Mining"], "Ben"
+    )
 
-    while (True):
+    while True:
         print(
-            f"welcome to the {BenLibrary.name} library. Enter your choice to continue")
+            f"welcome to the {BenLibrary.name} library. Enter your choice to continue"
+        )
         print("1 Display Books")
         print("2 Lend a Book")
         print("3 Add a Book")
@@ -68,13 +75,12 @@ if __name__ == "__main__":
         else:
             print("not a valid option")
         print("Press q to quit and c to continue....")
-        
+
         user_choice2 = ""
-        
-        while(user_choice2 != "c" and user_choice2 != "q"):
+
+        while user_choice2 != "c" and user_choice2 != "q":
             user_choice2 = input()
             if user_choice2 == "q":
                 exit()
             elif user_choice2 == "c":
                 continue
-        
