@@ -13,4 +13,13 @@ Data Science | Machine Learning | Data Engineering | Python Projects
      <li>
       <a href="Library Management System/README.md">Library Management System</a>
     </li>
+    <li>
+      <a href="Logging System/README.md">Logging System</a>
+    </li>
+    <li>
+      <a href="Python Testing/README.md">Python Testing</a>
+    </li>
+    <li>
+      <a href="Multi Processing/README.md">Multi Processing</a>
+    </li>
   </ul>
