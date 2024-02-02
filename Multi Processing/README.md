@@ -1,5 +1,0 @@
-multiprocessing
-
-simple ultiprocessing simple_multiprocessing.py
-Communication between processes multiproc_comm.py
-concurrency concurrent_futures.py
