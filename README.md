@@ -20,6 +20,6 @@ Data Science | Machine Learning | Data Engineering | Python Projects
       <a href="Python Testing/README.md">Python Testing</a>
     </li>
     <li>
-      <a href="Multi Processing/README.md">Multi Processing</a>
+      <a href="Asynchronous Programming/README.md">Asynchronous Programming</a>
     </li>
   </ul>
