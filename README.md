@@ -22,4 +22,7 @@ Data Science | Machine Learning | Data Engineering | Python Projects
     <li>
       <a href="Asynchronous Programming/README.md">Asynchronous Programming</a>
     </li>
+    <li>
+     <a href="Datastructures and Algorithms/README.md">Datastructures and Algorithms</a>
+    </li>
   </ul>
