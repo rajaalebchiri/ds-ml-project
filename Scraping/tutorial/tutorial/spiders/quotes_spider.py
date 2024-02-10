@@ -1,7 +1,7 @@
-from pathlib import Path
-
 import scrapy
+from pathlib import Path
 from tutorial.items import TutorialItem
+
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"

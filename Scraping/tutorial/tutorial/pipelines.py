@@ -8,6 +8,9 @@
 import datetime
 
 
-class AddScrapedDate:
+class AddScrapedDatePipeline:
     def process_item(self, item, spider):
+        current_utc_datetime = datetime.datetime.utcnow()
+        item['scraped_date'] = current_utc_datetime
         return item
+

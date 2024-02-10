@@ -12,3 +12,4 @@ class TutorialItem(Item):
     text = Field()
     author = Field()
     tags = Field()
+    scraped_date = Field()
