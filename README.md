@@ -25,4 +25,7 @@ Data Science | Machine Learning | Data Engineering | Python Projects
     <li>
      <a href="Datastructures and Algorithms/README.md">Datastructures and Algorithms</a>
     </li>
+    <li>
+     <a href="Scraping/README.md">Scraping</a>
+    </li>
   </ul>
