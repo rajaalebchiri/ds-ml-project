@@ -28,4 +28,7 @@ Data Science | Machine Learning | Data Engineering | Python Projects
     <li>
      <a href="Scraping/README.md">Scraping</a>
     </li>
+    <li>
+     <a href="Flask_APP">Learning Flask</a>
   </ul>
+

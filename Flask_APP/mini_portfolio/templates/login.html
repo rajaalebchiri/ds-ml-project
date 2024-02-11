@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Login</h2>
+    {% if error %}
+    <h4>{{error}}</h4>
+    {% endif %}
+     <form method="post" action>
+        <label>Username</label>
+        <input type="text" name="username" placeholder="username" />
+        <label>Password</label>
+        <input type="password" name="password" placeholder="username" />
+        <input type="submit" name="login" value="Login" />
+    </form>
+
+</body>
+</html>
