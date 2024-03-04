@@ -1,0 +1,14 @@
+Filename: /Users/rajaalebchiri/Documents/Software Engineering/ds-ml-project/memory_profiling/./main.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+     7     19.9 MiB     19.9 MiB           1   @profile(stream=mem_logs)
+     8                                         def process_strs(reps=10**6):
+     9                                             """generate super long string"""
+    10     77.2 MiB     57.2 MiB           1       str1 = 'python' * reps
+    11    172.5 MiB     95.4 MiB           1       str2 = 'programmer' * reps
+    12    325.1 MiB    152.6 MiB           1       str3 = str1 + str2
+    13    325.1 MiB      0.0 MiB           1       del str2
+    14    325.1 MiB      0.0 MiB           1       return str3
+
+

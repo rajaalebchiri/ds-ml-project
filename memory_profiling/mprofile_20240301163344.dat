@@ -1,0 +1,3 @@
+CMDLINE '/Users/rajaalebchiri/Documents/Software Engineering/ds-ml-project/memory_profiling/.venv/bin/python' main.py
+MEM 0.187500 1709307224.1134
+MEM 193.968750 1709307224.2150
