@@ -1,0 +1,50 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore CSV and Excel files in the 'translator_flask' data directory
+translator_flask/data/*.csv
+translator_flask/data/*.xlsx
+
+# Ignore logs and profiling data
+*.log
+*.dat
+
+# Ignore output images
+*.png
+
+# Ignore specific model and token cache directories
+/.cache/
+.huggingface/
+
+# Ignore temporary files and directories
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore specific project directories
+Flask_APP/mini_portfolio/__pycache__/
+Learning Django/first_project/db.sqlite3
+Python Testing/__pycache__/
+Python Testing/wallet/__pycache__/
+asynchronous Programming/__pycache__/
+translator_flask/__pycache__/
+memory_profiling/mem_profile.log
+memory_profiling/mprofile_*.dat
