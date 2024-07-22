@@ -34,5 +34,8 @@ Data Science | Machine Learning | Data Engineering | Python Projects
     <li>
       <a href="Learning_Numpy/README.md">Learning Numpy</a>
     </li>
+<li>
+      <a href="Learning_Pandas/README.md">Learning Pandas</a>
+    </li>
   </ul>
 
