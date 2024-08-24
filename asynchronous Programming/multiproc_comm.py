@@ -35,9 +35,11 @@ def process2_queue_version(queue):
 def run():
     events = ["get up", "brush your teeth", "shower", "work", "eod"]
     # Pipe Version
-    """conn1, conn2 = multiprocessing.Pipe()
+    """
+    conn1, conn2 = multiprocessing.Pipe()
     process_1 = multiprocessing.Process(target=process1_send_function, args=(conn1, events))
-    process_2 = multiprocessing.Process(target=process2_recv_function, args=(conn2,))"""
+    process_2 = multiprocessing.Process(target=process2_recv_function, args=(conn2,))
+    """
     # Queue Version
     queue = multiprocessing.Queue()
     process_1 = multiprocessing.Process(
