@@ -1,6 +1,6 @@
 Learning DS ML Data Engineering Python
 
-Data Science | Machine Learning | Data Engineering | Python Projects | Data Engineering
+Data Science | Machine Learning | Data Engineering | Python Projects | Data Engineering | Data Analytics
 
 
   <ul>
